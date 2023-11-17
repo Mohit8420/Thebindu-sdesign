@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mooli&family=Poppins&family=Roboto+Condensed:wght@300&family=Saira+Semi+Condensed:wght@500&display=swap');
+
+
+
+body {
+    font-size: 15pt;
+    background-color : black;
+}
+
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+
+.logo{
+  position : absolute;
+  top : 0;
+  font-weight: bold;
+  font-size: 20px;
+  color : white ;
+  margin-top : 20px;
+  margin-left : 65px;
+  font-family: 'Poppins', sans-serif;
+}
+
+span {
+  color :#F7EF8A;
+}
+
+.join {
+  position : relative;
+  left : 70vw;
+  top : 3vh;
+  height: 25px;
+  width : 80px;
+  background-color: transparent;
+  border : 1px solid black;
+  border-radius : 4px;
+  color : white;
+  font-size: 11px;
+  font-weight: 100;
+  z-index: 99;
+}
+
+
+.one {
+  background: url("1.jpg") ;
+  background-size: cover;
+  height : 80vh;
+  width : 100vw;
+  position: absolute;
+  top : 0;
+  left : 0;
+  z-index : -10;
+}
+
+.parent1 {
+  position: relative;
+}
+
+.txt1 {
+  color : #FFF5C3;
+  position : relative;
+  top : 45vh;
+  font-size : 35px;
+  margin-left: 4vw;
+  font-family: 'Dancing Script', cursive;
+  animation-name: txt1 ;
+  animation-duration: 5s;
+}
+
+@keyframes txt1 {
+  0% {
+    opacity: 0;
+  }
+  
+}
+
+.txt2 {
+  color : #FFF5C3;
+  position : relative;
+  top : 70vh;
+  font-size : 35px;
+  margin-left: 27vw;
+  font-family: 'Dancing Script', cursive;
+  animation-name: txt1 ;
+  animation-duration: 13s;
+}
+
+
+.iam {
+  color : whitesmoke ;
+  position: relative;
+  top : 82vh;
+  text-align: center;
+  animation-name : txt1;
+  animation-duration: 4s;
+  font-size: 15px;
+}
+
+.iamimg {
+  height : 40vh;
+  width : 50vw;
+  background: url("4.jpg");;
+  background-size : cover;
+  margin-left : 23vw;
+  position: relative ;
+  top : 86vh;
+  animation-name : txt1;
+  animation-duration : 3s;
+}
+
+.txt3 {
+  color : #FFF5C3;
+  position : relative;
+  top : 90vh;
+  font-size : 35px;
+  margin-left: 24vw;
+  font-family: 'Dancing Script', cursive;
+  animation-name: txt1 ;
+  animation-duration: 17s;
+}
+
+.container{
+
+  width: 67vw;
+  height: 3vh;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top : 16vh;
+  margin-left: 30vw;
+}
+
+h1{
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+span{
+  color: #FFF5C3;
+}
+
+.container2{
+
+  width: 67vw;
+  height: 3vh;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top : 93vh;
+  margin-left: 22vw;
+}
+
+.img5 {
+  height : 40vh;
+  width : 60vw;
+  background : url("5.jpg");
+  background-size: contain;
+  position: relative;
+  top : 98vh;
+  left : 30vw;
+}
+
+.img6 {
+  height : 40vh;
+  width : 60vw;
+  background : url("7.jpg");
+  background-size: contain;
+  position: relative;
+  top : 104vh;
+  left : 10vw;
+  animation-name : txt1;
+  animation-duration: 4s;
+}
+
+.img7 {
+  height : 40vh;
+  width : 60vw;
+  background : url("6.jpg");
+  background-size: contain;
+  position: relative;
+  top : 110vh;
+  left : 36vw;
+  animation-name : txt1;
+  animation-duration: 4s;
+}
+
+.img8 {
+  height : 40vh;
+  width : 60vw;
+  background : url("8.jpg");
+  background-size: contain;
+  position: relative;
+  top : 116vh;
+  left : 10vw;
+  animation-name : txt1;
+  animation-duration: 4s;
+}
+
+.img9 {
+  height : 40vh;
+  width : 60vw;
+  background : url("9.jpg");
+  background-size: contain;
+  position: relative;
+  top : 122vh;
+  left : 30vw;
+  animation-name : txt1;
+  animation-duration: 4s;
+}
+
+.img10 {
+  height : 40vh;
+  width : 60vw;
+  background : url("10.jpg");
+  background-size: contain;
+  position: relative;
+  top : 128vh;
+  left : 10vw;
+  animation-name : txt1;
+  animation-duration: 4s;
+}
+
+.foot {
+  background-color : #172531;
+  height : 30vh;
+  width: 110%;
+  position: relative;
+  top : 120vh;
+  margin-top: 10vh;
+}
+
+
+.menu-btn {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  top : 0;
+  left : 0;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #FFF5C3;
+  margin: 6px 0;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  padding: 50px 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease-in-out;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu li {
+  margin-bottom: 20px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #FFF5C3;
+  font-size: 18px;
+}
+
+.menu-open .mobile-menu {
+  left: 0;
+}
+
+
+.foot-txt  {
+  padding-left: 35%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cr {
+  position: relative;
+  top : 113vh;
+  bottom : 30vh;
+  color : white;
+  font-size: 13px;
+  margin-left: 30%;
+}
+
+#insta {
+  font-size: 40px;
+}
+
+.a {
+  text-decoration: none;
+  color : white;
+}
+
